@@ -7,7 +7,7 @@ local main = {};
 -- 2. will try to match human user hero and fill it accordingly
 -- 3. will randomly try to pick team synergy heroes
 
-function main.Think()
+function main.Pick(playerID, position)
   
 end
 
