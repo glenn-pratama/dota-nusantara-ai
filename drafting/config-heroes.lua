@@ -4,6 +4,8 @@ local heroes = {}
 -- higher is better for roles
 -- higher farm rate means this hero need more farm to come online
 
+-- TODO: add hoodwink
+
 heroes['npc_dota_hero_abaddon'] = {
   ['hard_support'] = 3,
   ['soft_support'] = 3,
@@ -190,7 +192,7 @@ heroes['npc_dota_hero_lycan'] = {
   ['offlane'] = 3,
   ['mid'] = 2,
   ['carry'] = 5,
-  ['farm_rate'] = 4
+  ['farm_rate'] = 3
 }
 
 heroes['npc_dota_hero_magnataur'] = {
@@ -731,6 +733,348 @@ heroes['npc_dota_hero_dark_seer'] = {
   ['mid'] = 2,
   ['carry'] = 0,
   ['farm_rate'] = 2
+}
+
+heroes['npc_dota_hero_dazzle'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 3,
+  ['mid'] = 1,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_death_prophet'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 0,
+  ['offlane'] = 3,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_disruptor'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 0,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_enchantress'] = {
+  ['hard_support'] = 4,
+  ['soft_support'] = 5,
+  ['offlane'] = 2,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 2
+}
+
+heroes['npc_dota_hero_enigma'] = {
+  ['hard_support'] = 3,
+  ['soft_support'] = 5,
+  ['offlane'] = 4,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 2
+}
+
+heroes['npc_dota_hero_invoker'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 0,
+  ['offlane'] = 0,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 4
+}
+
+heroes['npc_dota_hero_jakiro'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 0,
+  ['mid'] = 2,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_keeper_of_the_light'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 0,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_leshrac'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 0,
+  ['offlane'] = 4,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_lich'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 0,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_lina'] = {
+  ['hard_support'] = 2,
+  ['soft_support'] = 5,
+  ['offlane'] = 0,
+  ['mid'] = 4,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_lion'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 0,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 2
+}
+
+heroes['npc_dota_hero_furion'] = {
+  ['hard_support'] = 2,
+  ['soft_support'] = 2,
+  ['offlane'] = 5,
+  ['mid'] = 0,
+  ['carry'] = 2,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_mars'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 0,
+  ['offlane'] = 5,
+  ['mid'] = 3,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_necrolyte'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 0,
+  ['offlane'] = 5,
+  ['mid'] = 4,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_ogre_magi'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 3,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_oracle'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 0,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_obsidian_destroyer'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 0,
+  ['offlane'] = 0,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_pangolier'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 3,
+  ['offlane'] = 5,
+  ['mid'] = 3,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_puck'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 3,
+  ['offlane'] = 3,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_pugna'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 3,
+  ['offlane'] = 3,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_queenofpain'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 0,
+  ['offlane'] = 0,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_rubick'] = {
+  ['hard_support'] = 3,
+  ['soft_support'] = 5,
+  ['offlane'] = 0,
+  ['mid'] = 2,
+  ['carry'] = 0,
+  ['farm_rate'] = 2
+}
+
+heroes['npc_dota_hero_shadow_demon'] = {
+  ['hard_support'] = 4,
+  ['soft_support'] = 5,
+  ['offlane'] = 0,
+  ['mid'] = 2,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_shadow_shaman'] = {
+  ['hard_support'] = 4,
+  ['soft_support'] = 5,
+  ['offlane'] = 0,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_silencer'] = {
+  ['hard_support'] = 4,
+  ['soft_support'] = 5,
+  ['offlane'] = 0,
+  ['mid'] = 0,
+  ['carry'] = 1,
+  ['farm_rate'] = 2
+}
+
+heroes['npc_dota_hero_skywrath_mage'] = {
+  ['hard_support'] = 4,
+  ['soft_support'] = 5,
+  ['offlane'] = 0,
+  ['mid'] = 2,
+  ['carry'] = 0,
+  ['farm_rate'] = 2
+}
+
+heroes['npc_dota_hero_snapfire'] = {
+  ['hard_support'] = 4,
+  ['soft_support'] = 4,
+  ['offlane'] = 3,
+  ['mid'] = 4,
+  ['carry'] = 0,
+  ['farm_rate'] = 2
+}
+
+heroes['npc_dota_hero_storm_spirit'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 0,
+  ['offlane'] = 0,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_techies'] = {
+  ['hard_support'] = 3,
+  ['soft_support'] = 5,
+  ['offlane'] = 0,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 2
+}
+
+heroes['npc_dota_hero_tinker'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 0,
+  ['offlane'] = 0,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_visage'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 3,
+  ['offlane'] = 0,
+  ['mid'] = 5,
+  ['carry'] = 3,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_void_spirit'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 3,
+  ['offlane'] = 4,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_warlock'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 0,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_windrunner'] = {
+  ['hard_support'] = 3,
+  ['soft_support'] = 4,
+  ['offlane'] = 3,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
+}
+
+heroes['npc_dota_hero_winter_wyvern'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 2,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_witch_doctor'] = {
+  ['hard_support'] = 5,
+  ['soft_support'] = 4,
+  ['offlane'] = 0,
+  ['mid'] = 0,
+  ['carry'] = 0,
+  ['farm_rate'] = 1
+}
+
+heroes['npc_dota_hero_zuus'] = {
+  ['hard_support'] = 0,
+  ['soft_support'] = 3,
+  ['offlane'] = 0,
+  ['mid'] = 5,
+  ['carry'] = 0,
+  ['farm_rate'] = 3
 }
 
 return heroes
